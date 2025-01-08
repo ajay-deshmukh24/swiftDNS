@@ -1,8 +1,7 @@
 import { startUdpServer } from "denamed";
 
-startUdpServer(
-  (query) => {
-    console.log(query);
-  },
-  { port: 8000 }
-);
+startUdpServer((query) => {
+  console.log(query);
+});
+
+console.log("hii from me");
