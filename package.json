@@ -1,0 +1,21 @@
+{
+  "name": "swiftdns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "denamed": "^2.0.4"
+  }
+}
