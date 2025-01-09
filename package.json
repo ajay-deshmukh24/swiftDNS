@@ -17,6 +17,8 @@
     "nodemon": "^3.1.9"
   },
   "dependencies": {
-    "denamed": "^2.0.4"
+    "@google/generative-ai": "^0.21.0",
+    "denamed": "^2.0.4",
+    "dotenv": "^16.4.7"
   }
 }
