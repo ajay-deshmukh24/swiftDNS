@@ -15,7 +15,8 @@ startUdpServer(async (query) => {
   const question = query.questions[0];
   console.log("Question :", question);
 
-  const prompt = "who is prime minister of india";
+  const prompt = `Answer the question in one word or sentence.
+  Question: ${question.name.split(".").join(" ")}`;
 
   const result = await model.generateContent(prompt);
   console.log(result.response.text());
